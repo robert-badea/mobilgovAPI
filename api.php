@@ -13,6 +13,8 @@ include 'sign.php';
     
 $action = $_GET['action'];
 
+error_reporting(0);
+
 switch($action)
 {
     case "petitionList":
